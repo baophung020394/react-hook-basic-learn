@@ -1,10 +1,15 @@
+import PostList from 'components/PostList';
 import RandomColor from 'components/RandomColor';
+import TodoList from 'components/TodoList/TodoList';
 import './App.scss';
 
 function App() {
+
   return (
     <div className="App">
-      <RandomColor />
+      {/* <RandomColor /> */}
+      {/* <TodoList /> */}
+      <PostList />
     </div>
   );
 }
