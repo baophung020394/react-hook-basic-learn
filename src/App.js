@@ -1,5 +1,6 @@
 import Clock from 'components/Clock/Clock';
 import MagicBox from 'components/MagicBox/MagicBox';
+import TestMemo from 'components/Memoization';
 import Memoization from 'components/Memoization/Memoization';
 import PostList from 'components/PostList';
 import RandomColor from 'components/RandomColor';
@@ -20,7 +21,8 @@ function App() {
       {/* {hide ? <Clock /> : null} */}
       {/* <MagicBox /> */}
       {/* <TestUseRef /> */}
-      <Memoization />
+      {/* <Memoization /> */}
+      <TestMemo />
     </div>
   );
 }
